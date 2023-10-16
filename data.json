@@ -1,0 +1,56 @@
+{
+    "storyname": "BestSellers",
+    "Thumbnail": "https://images.pexels.com/photos/18032330/pexels-photo-18032330/free-photo-of-wood-summer-building-house.jpegg",
+    "substory1": "https://images.pexels.com/photos/17905108/pexels-photo-17905108/free-photo-of-chair-and-fishing-rod-on-pier.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "product1": "PURPLE PRINTED SILK KAFTAN,\nMUDDY YELLOW BATIK PRINTED BUSTIER",
+    "substory2": "https://images.pexels.com/photos/18184173/pexels-photo-18184173/free-photo-of-low-angle-shot-of-a-woman-leaning-from-a-balcony.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "product2": "MUDDY YELLOW BATIK PRINTED BUSTIER"
+}
+
+
+{
+    "id": 1,
+    "image": "https://cdn.shopify.com/s/files/1/1123/3474/files/1.png",
+    "childstories": [
+        {
+            "id": "EJxDGyV__PgXYDKORszTu",
+            "storiescontnet": "https://cdn.shopify.com/s/files/1/1123/3474/files/Victoria_Waistcoat.jpg",
+            "dots": [
+                {
+                    "id": 1,
+                    "productname": "polyester-v-neck-dress-matte-pink"
+                }
+            ]
+        },
+        {
+            "id": "O9CBKmJYaUvu8RxcF2mt5",
+            "storiescontnet": "https://cdn.shopify.com/s/files/1/1123/3474/files/Matilda_Trousers.jpg",
+            "dots": [
+                {
+                    "id": 1,
+                    "productname": "linen-collared-neck-dress-brown"
+                }
+            ]
+        },
+        {
+            "id": "qfYLTsieQt2BsXesGRcvu",
+            "storiescontnet": "https://cdn.shopify.com/s/files/1/1123/3474/files/Suits_no_tag.jpg",
+            "dots": [
+                {
+                    "id": 1,
+                    "productname": "nylon-round-neck-dress-black"
+                }
+            ]
+        },
+        {
+            "id": "qfYLTsieQt2BsXesGRcvu",
+            "storiescontnet": "https://cdn.shopify.com/s/files/1/1123/3474/files/Snapinsta.app_366433339_308920971503299_2525457660037887152_n_1080.jpg?v=1695902755",
+            "dots": [
+                {
+                    "id": 1,
+                    "productname": "polyester-floral-printed-dress-black"
+                }
+            ]
+        }
+    ]
+}
