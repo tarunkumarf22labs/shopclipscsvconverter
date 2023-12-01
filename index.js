@@ -1,5 +1,6 @@
 const fs = require('fs');
 const XLSX = require('xlsx');
+const { v4: uuidv4 } = require('uuid');
 
 function convertExcelToJSON(filePath) {
   const workbook = XLSX.readFile(filePath);
@@ -7,9 +8,12 @@ function convertExcelToJSON(filePath) {
   const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
 
   const headers = jsonData[0];
-  const jsonResult = {};
+  const jsonResult = {
+    data : {},
+    properties : {}
+  };
   let Route;
-  
+
   for (let i = 1; i < jsonData.length; i++) {
     const values = jsonData[i];
     const row = {};
@@ -22,19 +26,19 @@ function convertExcelToJSON(filePath) {
         row[header] = value;
       }
     }
-    
+
     if (row?.pathname) {
       console.log("sahi");
       Route = row?.pathname;
-      if (!jsonResult[Route]) {
-        jsonResult[Route] = []; // Initialize as an empty array if it doesn't exist
+      if (!jsonResult.data[Route]) {
+        jsonResult.data[Route] = []; // Initialize as an empty array if it doesn't exist
       }
     }
 
     const Thumbnail = row?.['Thumbnail'];
     const storyname = row?.['storyname'];
     const collection = {
-      id: Date.now(),
+      id: uuidv4(), // Use uuidv4() to generate a unique ID
       image: Thumbnail,
       name: storyname,
       childstories: [],
@@ -56,17 +60,17 @@ function convertExcelToJSON(filePath) {
             // Loop through product names and add them to the collection
             productNames.forEach((productName) => {
               collection.childstories.push({
-                id: Date.now(),
+                id: uuidv4(), // Use uuidv4() to generate a unique ID
                 storiescontnet: storiescontnet,
-                dots: [{ id: Date.now(), productname: productName.trim() }],
+                dots: [{ id: uuidv4(), productname: productName.trim() }],
               });
             });
           } else {
             // If there's no comma, treat it as a single product
             collection.childstories.push({
-              id: Date.now(),
+              id: uuidv4(), // Use uuidv4() to generate a unique ID
               storiescontnet: storiescontnet,
-              dots: [{ id: Date.now(), productname: productIDValue }],
+              dots: [{ id: uuidv4(), productname: productIDValue }],
             });
           }
         }
@@ -75,22 +79,21 @@ function convertExcelToJSON(filePath) {
 
     if (Thumbnail) {
       console.log(Thumbnail, "Thumbnail");
-      jsonResult[Route].push(collection);
+      jsonResult.data[Route].push(collection);
     }
+  } 
+
+  jsonResult.properties = {
+    bg : "#FF0100"
   }
-  
-  console.log(jsonResult, "jsonResult");
   
   fs.writeFile('shopclips.json', JSON.stringify(jsonResult, null, 2), function (err) {
     if (err) throw err;
     console.log('Saved as JSON file');
   });
-  
+
   return jsonResult;
 }
 
 const filePath = './Memara shopclips data - Sheet1.csv';
 const jsonResult = convertExcelToJSON(filePath);
-
-
-
