@@ -1,0 +1,243 @@
+{
+  "data": {
+    "/": [
+      {
+        "id": "bab2ae56-d8aa-44f5-9a39-e3b79769137c",
+        "image": "https://cdn.shopify.com/s/files/1/0579/6836/1670/files/32344020_816403391878376_4347756648840822784_n.jpg?v=1699009884",
+        "name": "Best Sellers",
+        "childstories": [
+          {
+            "id": "71243ecc-a7ef-4f5e-9aa2-5323819e75f3",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/5642d0c3a5294225a55e05dfe7c5cf4e.mp4",
+            "dots": [
+              {
+                "id": "8e516556-391d-4023-a293-9cce9e15585c",
+                "productname": "handmade-sabai-grass-mesh-bag"
+              }
+            ]
+          },
+          {
+            "id": "f284da3b-8c8f-45d0-a8e6-263b4c8479d1",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/8b5992765c5246fd8ce84999936fb876.mp4",
+            "dots": [
+              {
+                "id": "a7d35a03-85c4-4377-965a-72dbbcc9a7d9",
+                "productname": "handmade-sabai-grass-round-mats"
+              },
+              {
+                "id": "9b4ad9f0-49e0-4406-8452-2ad034328bfa",
+                "productname": "handmade-sabai-grass-coasters"
+              },
+              {
+                "id": "740bd19f-7ba3-4d12-ada0-fc0c2c5a75da",
+                "productname": "handmade-sabai-napkin-rings"
+              },
+              {
+                "id": "e0913c2c-94c0-4bfb-ac1d-854b9e839e65",
+                "productname": "handmade-sabai-grass-bread-basket"
+              },
+              {
+                "id": "8c6f6f5e-5b50-48c9-800c-d104ee899e6c",
+                "productname": "handmade-sabai-grass-roti-box-black"
+              }
+            ]
+          },
+          {
+            "id": "c3f5c800-eef9-4f5b-bddd-a9d0e62baeb9",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/74154d8806e2462385784f7707f2aeac.mp4",
+            "dots": [
+              {
+                "id": "42d3cb49-a206-467e-be7c-82aa430a36c8",
+                "productname": "handmade-sabai-grass-roti-box-brown"
+              }
+            ]
+          },
+          {
+            "id": "bd00c108-9d08-4375-b654-6f337a036c47",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/0add4adf12a040a7bf5e021edd5ec1a1.mp4",
+            "dots": [
+              {
+                "id": "37be94db-1461-4342-856a-6a94e0a8fe08",
+                "productname": "sitalpati-gift-box"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f81ad5a-b7a0-4850-a6c4-0231ce06fb11",
+        "image": "https://cdn.shopify.com/s/files/1/0579/6836/1670/files/345603598_3527146207559441_9101157396480832799_n.jpg?v=1699011131",
+        "name": "Bags",
+        "childstories": [
+          {
+            "id": "649e79a2-6fe1-490f-a206-beafb5efffb4",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/4627198bffff4f07814b7dc4e728b785.mp4",
+            "dots": [
+              {
+                "id": "99caa4d6-d282-4641-92d0-af476c865c7f",
+                "productname": "handmade-sabai-grass-mesh-bag"
+              }
+            ]
+          },
+          {
+            "id": "d916de19-7513-4d38-808f-631d6427a9c4",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/aa0e114bed484654a8b29f4aedfeef6e.mp4",
+            "dots": [
+              {
+                "id": "e3865238-a8b6-455f-beb1-d7f9dcf2086f",
+                "productname": "handmade-sabai-zari-mesh-bag"
+              }
+            ]
+          },
+          {
+            "id": "0ccfefed-8102-4b1b-9aeb-c754e461d27c",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/40e24220cc944bafb276456155f1bd55.mp4",
+            "dots": [
+              {
+                "id": "9466fc76-c961-4575-97f1-059f35782a11",
+                "productname": "sabai-grass-shopping-bag"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eca53882-daca-4349-b4e3-6a26bc0d6fb8",
+        "image": "https://cdn.shopify.com/s/files/1/0579/6836/1670/files/147451985_435314794336977_4966965701551366107_n.jpg?v=1699012056",
+        "name": "Serveware Baskets",
+        "childstories": [
+          {
+            "id": "88e3bde2-25d5-48d9-b408-659312184244",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/74154d8806e2462385784f7707f2aeac.mp4",
+            "dots": [
+              {
+                "id": "6d1844cf-57c1-450d-9927-6d8e9ec75782",
+                "productname": "handmade-sabai-grass-roti-box-brown"
+              }
+            ]
+          },
+          {
+            "id": "2ae4cc12-8067-421f-a794-37740b024e3a",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/897bdb19c4b549cd99bd8db46fa8fd69.mp4",
+            "dots": [
+              {
+                "id": "47f0b532-bea0-426c-863c-fbc5f373270e",
+                "productname": "handmade-bamboo-chip-dip"
+              }
+            ]
+          },
+          {
+            "id": "bcd97dfb-6fa8-482e-81ca-744a0aff15f7",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/8abb3568d8fa4c04b4b4f87ca026d926.mp4",
+            "dots": [
+              {
+                "id": "cede1303-fb6c-4fc8-a20c-5ca67805baea",
+                "productname": "handmade-sabai-grass-bread-box"
+              }
+            ]
+          },
+          {
+            "id": "e8a26268-e690-46d3-b7b9-a1c03b189ae8",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/8b5992765c5246fd8ce84999936fb876.mp4",
+            "dots": [
+              {
+                "id": "067357f7-c5f4-4c75-b263-50490e6dd0ba",
+                "productname": "handmade-sabai-grass-round-mats"
+              },
+              {
+                "id": "959f6a4a-e421-48d0-9e30-ccfb07701812",
+                "productname": "handmade-sabai-grass-coasters"
+              },
+              {
+                "id": "b5124446-1754-4319-aac3-fa235f0a15d7",
+                "productname": "handmade-sabai-napkin-rings"
+              },
+              {
+                "id": "2df70b80-4278-4e66-87b3-6fedde748c4f",
+                "productname": "handmade-sabai-grass-bread-basket"
+              },
+              {
+                "id": "677372f9-4bed-4d29-ac23-9a530267b809",
+                "productname": "handmade-sabai-grass-roti-box-black"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "58e4a9c8-b0c9-417c-9493-c1cbeba29468",
+        "image": "https://cdn.shopify.com/s/files/1/0579/6836/1670/files/249258444_387022173110945_1153784828486183884_n.jpg?v=1699014419",
+        "name": "Trays",
+        "childstories": [
+          {
+            "id": "899ab357-bb24-4772-9b60-cf044f5c8c4a",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/f522ce1f4e654a659d6aa5c30829bc13.mp4",
+            "dots": [
+              {
+                "id": "6543f667-d569-4894-9fb6-44d87c391001",
+                "productname": "handmade-bamboo-olive-tray-brown"
+              }
+            ]
+          },
+          {
+            "id": "5d293314-4685-4bec-9713-c3640b918548",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/8655ae7bf49543fd96aafd436a09f9b4.mp4",
+            "dots": [
+              {
+                "id": "cda172e3-1f79-43a2-a1ea-290f38becc64",
+                "productname": "handmade-bamboo-chip-dip"
+              }
+            ]
+          },
+          {
+            "id": "ebbb3e7b-493e-4a46-b51a-a77294ad4665",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/610965a9d78149b592dd09c84ada9a65.mp4",
+            "dots": [
+              {
+                "id": "75c78054-95c1-4f55-93bc-774d1ad87642",
+                "productname": "coconut-shell-bowls-with-spoon-set"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "458cc837-c4d5-43b8-9430-0ddf4d24f1ef",
+        "image": "https://cdn.shopify.com/s/files/1/0579/6836/1670/files/kadamhaat_gifitng_thumbnail.webp?v=1699961901",
+        "name": "Gifting",
+        "childstories": [
+          {
+            "id": "6b2d227f-ef6e-46a8-887a-e1174f2fb508",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/8879e486e04d4d1eb89281e94820a7e2.mp4",
+            "dots": [
+              {
+                "id": "ff642d86-58c2-4bb1-9bf6-6370b8779c2e",
+                "productname": "handmade-sitalpati-gift-box"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b89daac1-82df-4b63-92bb-7c03cfd5e41e",
+        "image": "https://cdn.shopify.com/s/files/1/0579/6836/1670/files/288123169_155111760372157_6865087215880793068_n.jpg?v=1699962395",
+        "name": "Declutter",
+        "childstories": [
+          {
+            "id": "b9736227-07ea-4dd9-99b6-9c0c4822560c",
+            "storiescontnet": "https://cdn.shopify.com/videos/c/o/v/1bbe8ca8f55a4653a5c055bf4a0cb94a.mp4",
+            "dots": [
+              {
+                "id": "d30e272b-9be8-4d9b-838a-e778b3d82e5c",
+                "productname": "handmade-moonj-grass-declutter-basket"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "properties": {
+    "bg": "#ffff"
+  }
+}
