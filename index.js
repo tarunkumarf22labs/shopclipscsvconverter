@@ -81,6 +81,8 @@ function convertExcelToJSON(filePath) {
   return json;
 }
 
+// Please provide the csv path
 const filePath = "./kadamhaat.csv";
 convertExcelToJSON(filePath);
 
+// File will get created with shop name example - ekkatha.json
